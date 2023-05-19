@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nossa Loja</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-image: url(../img/fundoLoja.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: rgb(0, 0, 0);
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 40px;
+      }
+      .container__botoes {
+        text-decoration: none;
+        color: rgb(94, 47, 0);
+        margin: 0 1em;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+        padding: 4px 8px;
+      }
+      .loja {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: black;
+      }
+      .loja__titulo {
+        font-size: 50px;
+        font-family: sans-serif;
+      }
+      .loja__descricao {
+        margin-top: 0px;
+        font-size: 18px;
+        color: rgb(10, 77, 0);
+      }
+      .produtos-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .produto {
+        margin: 22px 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .produto__imagem {
+        width: 200px;
+        height: 200px;
+      }
+      .produto__nome {
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      .produto__preco {
+        margin-top: 5px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.381);
+        width: 80px;
+        height: 20px;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <nav class="container__navegacao">
+          <a href="../index.html" class="container__botoes">Home</a>
+          <a href="../pages/canal.html" class="container__botoes">Canal</a>
+          <a href="../pages/doacao.html" class="container__botoes">Doação</a>
+          <a href="../pages/loja.html" class="container__botoes">Nossa Loja</a>
+          <a href="../pages/projeto.html" class="container__botoes">Projeto</a>
+          >
+          
+          <a href="../pages/tabalheConosco.html" class="container__botoes"
+            >Trabalhe Conosco</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <div class="loja">
+      <h1 class="loja__titulo">Nossa Loja</h1>
+      <h4 class="loja__descricao">Todo lucro está destinado ao projeto</h4>
+
+      <div class="produtos-container">
+        <div class="produto">
+          <img class="produto__imagem" src="../img/vaso.jpg" alt="Vaso" />
+          <h3 class="produto__nome">Vaso Artesanato</h3>
+          <p class="produto__preco">R$129,99</p>
+          <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+          <img class="produto__imagem" src="../img/mascara.jpg" alt="Mascara" />
+          <h3 class="produto__nome">Mascara Tribo Africana</h3>
+          <p class="produto__preco">R$ 279,90</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+
+      <div class="produtos-container">
+        <div class="produto">
+          <img class="produto__imagem" src="../img/berimbau.jpg" alt="Berimbau" />
+          <h3 class="produto__nome">Berimbau</h3>
+          <p class="produto__preco">R$179,50</p>
+          <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+          <img class="produto__imagem" src="../img/tambor.jpg" alt="Tambor" />
+          <h3 class="produto__nome">Tambor Africano</h3>
+          <p class="produto__preco">R$255,00</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

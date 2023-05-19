@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canal</title>
+</head>
+<body>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --cor-fundo: rgb(224, 224, 224);
+            --cor-letra: rgb(0, 0, 0); 
+        }
+
+        body{
+            background-color: var(--cor-fundo);
+         
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 5em;
+            margin: 1em;
+            
+
+        }
+        .container__foto{
+            width: 35%;
+            border-radius: 50%;
+        }
+        .container__titulo{
+            font-size: 60px;
+            margin: 50px 0;
+        }
+
+        .container__paragrafo{
+            font-size: 25px;
+        }
+
+
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__botoes {
+  text-decoration: none;
+  color: rgb(94, 47, 0);
+  margin: 0 1em;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 4px 8px;
+}
+
+    </style>
+    <center>
+        <nav class="container__navegacao">
+            <a href="../index.html" class="container__botoes">Home</a>
+             <a href="../pages/canal.html" class="container__botoes">Canal</a>
+             <a href="../pages/doacao.html" class="container__botoes">Doação</a>
+             <a href="../pages/loja.html" class="container__botoes">Nossa Loja</a>
+             <a href="../pages/projeto.html" class="container__botoes">Projeto</a>
+             <a href="../pages/tabalheConosco.html" class="container__botoes">Trabalhe Conosco</a>
+        </nav>
+  </center>
+    <main class="container">
+
+        <div class="container__texto">
+            <h2 class="container__titulo">Conheça nosso canal no Youtube!</h2>
+            <p class="container__paragrafo">Postamos vídeos frequentes para aprofundar você ainda mais em nosso projeto! Você irá ficar por dentro de nossas ideias sustentáveis que ajuam muito nosso planeta e entendera melhor como queremos tomar essa iniciativa!</p>
+        
+        </div> 
+        <img src="../img/youtube.jpg" alt="foto youtube" class="container__foto">
+       
+    </main>
+    
+</body>
+</html>

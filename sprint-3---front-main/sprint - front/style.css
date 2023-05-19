@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+
+}
+body{
+  overflow: hidden;
+}
+
+:root{
+  --cor-fundo: rgb(224, 224, 224);
+  --cor-letra: rgb(0, 0, 0); 
+}
+
+.menu{
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+  }
+  .container__botoes {
+    text-decoration: none;
+    color: rgb(94, 47, 0);
+    margin: 0 1em;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 4px 8px;
+  }
+
+  .fotoProjeto img {
+   
+    width: 600px ;
+    
+    height: 100vh; 
+    
+  }
+
+  .div{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #683c2c;
+    margin-right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+  }
+
+
+  .textoProjeto h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 220px;
+    font-size: 70px;
+    text-decoration: underline
+    
+  }
+  .textoProjeto h2{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:10%;
+  text-decoration: underline;
+  font-size: 30px;
+  
+  }
+  .textoProjeto h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:5%;
+    font-size: 20px;
+    }
+
+  
+  
+
+  
